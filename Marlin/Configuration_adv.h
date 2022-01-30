@@ -3679,8 +3679,8 @@
  * The current sensor feeds DC voltage (relative to the measured current) to an analog pin
  * The voltage sensor feeds DC voltage (relative to the measured voltage) to an analog pin
  */
-#define POWER_MONITOR_CURRENT   // Monitor the system current
-#define POWER_MONITOR_VOLTAGE   // Monitor the system voltage
+//#define POWER_MONITOR_CURRENT   // Monitor the system current
+//#define POWER_MONITOR_VOLTAGE   // Monitor the system voltage
 
 #if ENABLED(POWER_MONITOR_CURRENT)
   #define POWER_MONITOR_VOLTS_PER_AMP    0.05000  // Input voltage to the MCU analog pin per amp  - DO NOT apply more than ADC_VREF!
